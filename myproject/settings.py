@@ -81,6 +81,9 @@ DATABASES = {
     }
 }
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://uploadimage-aah5cvcxdcf7dxch.swedencentral-01.azurewebsites.net'
+]
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
